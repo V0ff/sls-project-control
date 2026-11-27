@@ -29,3 +29,17 @@ Append material changes in reverse chronological order. Keep entries factual; li
   - `work/SLS-002.md`: `2c660aa3b23804b2bcfc7d40edd66a173eea914a`
 - No changes to `sls-core`; no SLS implementation, tests, deployment or data modification.
 - This is a review candidate only. Nothing has been merged to `main`.
+
+
+## 2026-11-27 — Owner-approved governance and recommended work order
+
+- Project owner explicitly accepted D-002, D-003 and D-004.
+- Updated `DECISIONS.md` to ACCEPTED for D-002 through D-004; D-001 remains ACCEPTED.
+- Updated `PROJECT_STATE.md` to reflect the adopted governance model and current authorization state.
+- Recorded the owner-approved planning order in `PRIORITIES.md`: SLS-001 → SLS-002 → SLS-003.
+- Rationale: finish the control foundation and verify Rool's own-runtime read access; then establish the bounded S2 baseline; then inventory modular architecture with the S2 baseline available for reference.
+- The order is planning guidance, not a technical dependency and not task activation. No task has been activated; no private technical source was accessed; no implementation, tests or deployment were authorized or performed.
+- Changes are on branch `owner-decisions-and-priority-2026-11-27`; commits:
+  - `DECISIONS.md`: `c46cb35650a0a77d0857cb823ba0901757935a48`
+  - `PRIORITIES.md`: `5a92ebcc64cf4d17720a7b9d4336ae397a0aed81`
+  - `PROJECT_STATE.md`: `7cb65ef66febebac6fdc32bf946c78decb38219b`
