@@ -13,23 +13,26 @@ Accepted decisions are durable. Proposed rules remain proposals until the projec
 ## D-002 — Canonical source of project-level status
 
 - **Date proposed:** 2026-11-27
-- **Status:** PROPOSED — owner decision required
-- **Proposal:** `PROJECT_STATE.md`, `PRIORITIES.md`, `DECISIONS.md` and individual task files become the canonical project-level reference. A GitHub Project board, if used, is a presentation/workflow view only.
+- **Date accepted:** 2026-11-27
+- **Status:** ACCEPTED
+- **Decision:** `PROJECT_STATE.md`, `PRIORITIES.md`, `DECISIONS.md` and individual task files are the canonical project-level reference. A GitHub Project board, if used, is a presentation/workflow view only.
 - **Rationale:** Avoid conflicting status across chat threads, boards and generated reports.
-- **Owner decision:** Pending.
+- **Owner decision:** Accepted by the project owner on 2026-11-27.
 
 ## D-003 — Owner-controlled authorization gates
 
 - **Date proposed:** 2026-11-27
-- **Status:** PROPOSED — owner decision required
-- **Proposal:** Agents may inspect and propose. The project owner approves scope, priority, activation, implementation, tests and deployment separately. No agent writes directly to `main`; writes to a working branch require task-specific authorization.
+- **Date accepted:** 2026-11-27
+- **Status:** ACCEPTED
+- **Decision:** Agents may inspect and propose. The project owner approves scope, priority, activation, implementation, tests and deployment separately. No agent writes directly to `main`; writes to a working branch require task-specific authorization.
 - **Rationale:** Prevent recursive review and autonomous scope expansion from becoming de facto authorization.
-- **Owner decision:** Pending.
+- **Owner decision:** Accepted by the project owner on 2026-11-27.
 
 ## D-004 — Bounded review and evidence discipline
 
 - **Date proposed:** 2026-11-27
-- **Status:** PROPOSED — owner decision required
-- **Proposal:** Every task must be bounded by explicit scope, exclusions, inputs, deliverable and acceptance criteria. Evidence must be labeled VERIFIED, REPORTED, INFERRED or NOT VERIFIED. Review work must conclude with a disposition rather than automatically spawning another review cycle. Task status, evidence status, deliverable status and owner acceptance remain distinct.
+- **Date accepted:** 2026-11-27
+- **Status:** ACCEPTED
+- **Decision:** Every task must be bounded by explicit scope, exclusions, inputs, deliverable and acceptance criteria. Evidence must be labeled VERIFIED, REPORTED, INFERRED or NOT VERIFIED. Review work must conclude with a disposition rather than automatically spawning another review cycle. Task status, evidence status, deliverable status and owner acceptance remain distinct.
 - **Rationale:** Keep review proportional to concrete risk and prevent review loops.
-- **Owner decision:** Pending.
+- **Owner decision:** Accepted by the project owner on 2026-11-27.

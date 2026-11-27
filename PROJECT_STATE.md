@@ -2,7 +2,7 @@
 
 Last updated: 2026-11-27
 Authority: project owner
-Document status: working draft; proposed governance rules await owner acceptance.
+Document status: current project-level control record; technical project state remains subject to task-scoped verification.
 Confidence convention: VERIFIED / REPORTED / INFERRED / NOT VERIFIED
 
 ## Project-level structure
@@ -16,28 +16,28 @@ Confidence convention: VERIFIED / REPORTED / INFERRED / NOT VERIFIED
 
 ## Governance adoption
 
-- **D-001:** public control / private technical source separation — accepted.
-- **D-002:** canonical project-level reference — proposed, pending owner acceptance.
-- **D-003:** owner-controlled authorization gates — proposed, pending owner acceptance.
-- **D-004:** bounded review and evidence discipline — proposed, pending owner acceptance.
-- The initial control documents have not yet been accepted as a complete governance model.
-- The queue order and task priorities have not been approved by the owner.
+- **D-001:** public control / private technical source separation — ACCEPTED.
+- **D-002:** canonical project-level reference — ACCEPTED by owner on 2026-11-27.
+- **D-003:** owner-controlled authorization gates — ACCEPTED by owner on 2026-11-27.
+- **D-004:** bounded review and evidence discipline — ACCEPTED by owner on 2026-11-27.
+- The four decisions above establish the adopted project-control rules. Individual task deliverables still require owner acceptance.
+- **Priority sequence:** SLS-001 → SLS-002 → SLS-003, approved as the current planning order on 2026-11-27. This does not activate any task.
 
 ## Current work status
 
-- **SLS-001:** REVIEW — initial control repository and documents await owner acceptance; Rool runtime access remains unverified.
+- **SLS-001:** REVIEW — initial control repository and documents await final task acceptance; Rool runtime access remains unverified.
 - **SLS-002:** PROPOSED — read-only S2 inventory only.
-- **SLS-003:** PROPOSED — read-only modular architecture inventory; independent of SLS-002 unless the owner later defines a dependency.
-- **Active technical tasks:** none.
-- **Technical implementation/test/deployment authorization:** none granted by creation or correction of this control repository.
+- **SLS-003:** PROPOSED — read-only modular architecture inventory.
+- **Active tasks:** none.
+- **Technical implementation/test/deployment authorization:** none granted.
 
-## Evidence and authority rules proposed for adoption
+## Evidence and authority rules
 
 For every material claim, retain source, date, exact object identity and verification method where applicable. Distinguish a reported claim from an independently verified fact. A task's status does not by itself prove that its deliverable exists, that its evidence is verified, that the owner accepted it, or that a subsequent gate is authorized.
 
 ## Immediate next step
 
-Owner review of the consolidated control-document correction branch. After the owner accepts the governance model and chooses the work order, Rool may perform a narrowly scoped read-access check. Only then should the owner activate one inventory task at a time.
+Complete SLS-001's remaining read-access verification from Rool's own runtime. After that evidence is recorded, the owner can accept SLS-001 and separately activate SLS-002. SLS-003 remains later in the recommended sequence and requires its own activation.
 
 ## Known limitations
 
